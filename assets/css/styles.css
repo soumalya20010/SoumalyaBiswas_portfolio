@@ -314,6 +314,37 @@ body.dark-theme {
   transition: color .3s;
 }
 
+.home__social-link:hover{
+  color: var(--title-color);
+}
+
+.home__info{
+  display:grid;
+  row-gap: 2rem;
+}
+
+.home__info2{
+text-align:right;
+row-gap: 2rem;
+margin-right:30px;
+
+}
+.home__info-title{
+  font-family: var(--body- font);
+  font-size: var(--small-font-size);
+  font-weight:400;
+  color: var(--text-color-light);
+  margin-bottom: 1rem;
+}
+
+.home--info-description{
+  padding-right: 4rem;
+}
+
+.home__info-number{
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-semi-bold);
+}
 /*=============== SKILLS ===============*/
 
 
