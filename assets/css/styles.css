@@ -15,7 +15,7 @@
   --container-color: hsl(207, 4%, 95%);
 
   /* Change the first number */
-  /* Blue: 207 - Purple: 250 - Pink: 356 - Teal: 174 */
+  /* Blue: 207 - Purple: 250 - Pink: 356 - Teal:  174 */
   --gradient-color: linear-gradient(180deg,
                       hsla(207, 43%, 77%, 0),
                       rgb(75, 117, 151));
