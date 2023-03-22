@@ -507,8 +507,51 @@ animation: bounce-skills .8s;
   font-size: var(--small-font-size);
 }
 
-/* Swiper class */
+.projects__button i{
+  font-size: 1rem;
+  transition: transform .3s;
+}
 
+.projects__button:hover i{
+  transform: translateX(.25rem);
+}
+/* Swiper class */
+.projects__container .swiper-button-prev::after,
+.projects__container .swiper-button-next::after{
+  content: '';
+}
+.projects__container .swiper-button-prev,
+.projects__container .swiper-button-next{
+  width: initial;
+  height: initial;
+  margin: initial;
+  font-size: 2.5rem;
+  color: var(--title-color);
+}
+
+.projects__container .swiper-button-prev{
+  left: 11rem;
+  top: 15rem;
+}
+
+.projects__container .swiper-button-next{
+  right: 11rem;
+  top: 15rem;
+}
+
+.projects__container .swiper-pagination-bullets{
+  bottom: 0;
+}
+
+.projects__container .swiper-pagination-bullet{
+  background-color: var(--text-color-light);
+  opacity: initial;
+}
+
+.projects__container .swiper-pagination-bullet-active{
+  background-color: var(--text-color);
+  
+}
 
 /*=============== TESTIMONIAL ===============*/
 
@@ -517,7 +560,67 @@ animation: bounce-skills .8s;
 
 
 /*=============== CONTACT ===============*/
+.contact__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--medium-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 2.5rem;
+}
 
+.contact__title i{
+  font-size: 1rem;
+  font-weight: initial;
+}
+
+.contact__info,
+.contact__data,
+.contact__form{
+display: grid;
+}
+
+.contact__info{
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+.contact__data{
+  row-gap: .75rem;
+ 
+}
+
+.contact__data-title{
+font-size: var(--medium-font-size);
+font-family: var(--title-font);
+color: var(--title-color);
+
+
+}
+
+.contact__button{
+  width: max-content;
+  display: inline-flex;
+  align-items: center;
+  column-gap: .5rem;
+  color: var(--title-color);
+  font-size:var(--small-font-size);
+  
+
+}
+
+.contact__button i{
+  font-size: 1rem;
+  transition: transform .3s;
+}
+
+.contact__button:hover i{
+  transform: translateX(.5rem);
+}
 
 /* Status color */
 

@@ -12,7 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 
     <!--=============== SWIPER CSS ===============-->
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
 
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -51,8 +51,8 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#about" class="nav__link">
-                            <i class="ri-user-2-fill"></i>About
+                        <a href="#certifications" class="nav__link">
+                            <i class="ri-user-star-fill"></i>Certifications
                         </a>
                     <li class="nav__item">
                         <a href="#contact" class="nav__link">
@@ -242,12 +242,12 @@
         <section class="skills section" id="skills">
 
         </section>
-
+       
         <!--==================== QUALIFICATION ====================-->
         <section class="qualification section" id="qualification">
 <h2 class="section__title">Qualification</h2>
 <span class="section__subtitle">Experience & Education</span>
-
+<div class="contact__container container gird section__border">
     <!--==================== QUALIFICATION-1 ====================-->
    
     <div class="qualification __content">
@@ -293,14 +293,66 @@
         </div>
     </div>
 </div>
-<div class="skills__container container grid section__border">
+</div>
+
+
+        </section>
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title">Projects</h2>
+           <span class="section__subtitle">Personal & Group Projects </span>
+
+          <div class ="container section__border">
+            <div class="projects__container swiper">
+          <div class="swiper-wrapper">
+          <!--==================== PROJECTS-1 ====================-->
+        <div class="projects__content swiper-slide">
+         <img src="./assets/img/My project.png" alt="projects image" class="projects__img">
+<div>
+   
+    <span class="projects__subtitle"> abcd</span>
+    <h1 class="projects__title">Block-chainbased evoting system</h1>
+
+  <a href="#" class="projects__button">
+    view demo<i class="ri-arrow-right-line"></i>
+  </a>
+
+</div>
+</div>
+  <!--==================== PROJECTS-2 ====================-->
+  <div class="projects__content swiper-slide">
+    <img src="./assets/img/Mern-Stack.png" alt="projects image" class="projects__img">
+<div>
+
+<span class="projects__subtitle"> abcd</span>
+<h1 class="projects__title">Full stack web dev</h1>
+
+<a href="#" class="projects__button">
+view demo<i class="ri-arrow-right-line"></i>
+</a>
+
+</div>
+</div>
+</div>
+<!--Swiper arrows-->
+<div class="swiper-button-next">
+    <i class="ri-arrow-right-s-line"></i>
+</div>
+<div class="swiper-button-prev">
+    <i class="ri-arrow-left-s-line"></i>
+</div>
+<!--Swiper pagination-->
+<div class="swiper-pagination"></div>
+        </div>
+</div>
 
         </section>
 
         <!--==================== CERTIFICATIONS ====================-->
-        <section class="services section" id="services">
+        <section class="services section" id="certifications">
             <h2 class="section__title">CERTIFICATIONS</h2>
 <span class="section__subtitle">Notable Certificattions</span>
+<div class="contact__container container gird section__border">
 
 <div class="certification __content">
     <h3 class ="certification__title">
@@ -348,51 +400,11 @@
                                         </div>
                                     </div>
                                     </div>
+                                </div>
                                     </section>
                                     
 
-        <!--==================== PROJECTS ====================-->
-        <section class="projects section" id="projects">
-            <h2 class="section__title">Projects</h2>
-           <span class="section__subtitle">Personal & Group Projects </span>
-
-          <div class ="container section__border">
-            <div class="projects__container">
-          <div>
-          <!--==================== PROJECTS-1 ====================-->
-        <div class="projects__content">
-         <img src="./assets/img/My project.png" alt="projects image" class="projects__img">
-<div>
-   
-    <span class="projects__subtitle"> abcd</span>
-    <h1 class="projects__title">Block-chainbased evoting system</h1>
-
-  <a href="#" class="projects__button">
-    view demo<i class="ri-arrow-right-line"></i>
-  </a>
-
-</div>
-</div>
-  <!--==================== PROJECTS-2 ====================-->
-  <div class="projects__content">
-    <img src="./assets/img/Mern-Stack.png" alt="projects image" class="projects__img">
-<div>
-
-<span class="projects__subtitle"> abcd</span>
-<h1 class="projects__title">Full stack web dev</h1>
-
-<a href="#" class="projects__button">
-view demo<i class="ri-arrow-right-line"></i>
-</a>
-
-</div>
-</div>
-
-
-        </div>
-        </div>
-
-        </section>
+       
 
         <!--==================== SERVICES ====================-
         <section class="Services section" id="services">
@@ -402,6 +414,45 @@ view demo<i class="ri-arrow-right-line"></i>
 
         <!--==================== CONTACT ====================-->
         <section class="contact section" id="contact">
+       <h2 class="section__title">My Contacts </h2>
+       <span class="section__subtitle">Get in touch</span>
+
+
+    <div class="contact__content">
+        <h3 class="contact__title">
+            <i class="ri-message-3-line"></i>Talk to me
+        </h3>
+       
+        <div class="contact__info">
+            <div class="contact__data">
+                <span class="contact__data-title">Email</span>
+                <span class="contact__data-info">soumalyaabiswas2001@gmail.com</span>
+               <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="contact__button">
+                Mail me <i class="ri-arrow-right-line"></i>
+               </a>
+            </div>
+            <div class="contact__data">
+                <span class="contact__data-title">Whatsapp</span>
+                <span class="contact__data-info">+91 7980276303</span>
+                <a href="" class="contact__button">
+                    Write me <i class="ri-arrow-right-line"></i>
+                </a>
+            </div>
+            <!--<div class="contact__data">
+                <span class="contact__data-title"></span>
+                <span class="contact__data-info"></span>
+                <a href="" class="contact__button">
+                    Write me
+                </a>
+            </div>
+
+        -->
+        </div>
+    </div>
+</div>
+
+
+
 
         </section>
     </main>
@@ -419,7 +470,7 @@ view demo<i class="ri-arrow-right-line"></i>
     <script src=""></script>
 
     <!--=============== SWIPER JS ===============-->
-    <script src=""></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
 
     <!--=============== EMAIL JS ===============-->
 

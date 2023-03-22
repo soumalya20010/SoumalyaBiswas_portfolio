@@ -28,7 +28,20 @@ const linkAction = () => {
 navLink.forEach(n => n.addEeventListener('click', linkAction))
 
 /*=============== SWIPER PROJECTS ===============*/
+let swiperProjects = new Swiper(".projects__container", {
+    loop: true,
+    spaceBetween: 24, 
 
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    mousewheel: false,
+    keyboard: true,
+  });
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 
