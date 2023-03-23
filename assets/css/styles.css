@@ -73,6 +73,7 @@ body {
   font-size: var(--normal-font-size);
   background-color: var(--body-color);
   color: var(--text-color);
+  transition: background .6s;
 }
 
 h1, h2, h3 {
@@ -120,8 +121,19 @@ body.dark-theme{
     Color changes in some parts of 
     the website, in light theme
 ==========*/
+.dark-theme .nav,
+.dark-theme .nav__menu,
+.dark-theme .scrollup{
+  background-color: var(--container-color);
+  box-shadow: 0 4px 20px hsla(207, 24%, 8%, .4);
+}
+.dark-theme .home__shape-circle{
+    filter: invert(1);
+}
 
-
+.dark-theme .section__border{
+  border-bottom: 1px solid hsl(207,4%,32%);
+}
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1550px;
@@ -300,13 +312,14 @@ body.dark-theme{
 .home__shape-waves,
 .home__shape-circle{
   position : absolute;
-  opacity: .05;
+  opacity: .1;
 }
-.home__shape-waves{
+/*.home__shape-waves{
   width: 50px;
   left: -1.5rem;
   top: 5rem;
 }
+*/
 .home__shape-circle{
   width: 200px;
   bottom: -2.5rem;
