@@ -882,9 +882,9 @@ color: var(--title-color);
   height: calc(var(--header-height)+ 1.5rem);
   box-shadow: none;
   border-radius: 0;
-  column-gap: 3rem;
-  margin-inline: 1.5rem;
-  padding: 0;
+  column-gap: 20rem;
+  margin-inline: 0rem;
+  padding: 1rem;
 }
 .nav__link i,
 .nav__toggle,
@@ -896,7 +896,7 @@ color: var(--title-color);
   width: initial;
   margin-left: auto;
   background-color: var(--body-color);
-  transition: background .4s;
+  transition: background .01s;
 }
 
 .nav__list{
@@ -929,7 +929,51 @@ color: var(--title-color);
 .home__title{
   font-size: 2.25rem;
 }
+}
 
+@media screen and (min-width: 1200px){
 
+  .section__subtitle{
+    margin-bottom: 5rem;
+  }
+    .skills__container{
+      column-gap: 10rem;
+    }
+  .skills__title {
+    margin-bottom: 3rem;
+  }
+  .skills__title i{
+    font-size: 1.25rem;
+  }
+  .skills__name{
+    font-size: var(--normal-font-size);
+  }
+  .skills__info{
+    gap: 3rem;
+  }
+
+  .projects__container{
+    width: 900px;
+  }
+
+  .projects__container .swiper-button-prev,
+  .projects__container .swiper-button-next{
+    font-size: 3rem;
+  }
+  .projects__container .swiper-button-prev{
+    left: -1rem;
+  }
+  .projects__container .swiper-button-next{
+    right: -1rem;
+  }
+
+  .projects__container .swiper-slide{
+    margin-bottom: 6.5rem;
+  }
+
+  .projects__img{
+    width: 320px;
+    margin-bottom: 2rem;
+  }
 
 }
