@@ -571,7 +571,7 @@ animation: bounce-skills .8s;
 }
 
 .projects__container .swiper-pagination-bullets{
-  bottom: 0;
+  bottom: 5rem;
 }
 
 .projects__container .swiper-pagination-bullet{
@@ -708,6 +708,11 @@ color: var(--title-color);
 .footer__container{
   padding: 3rem 0 7rem;
   text-align: center;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  
 }
 
 .footer__title{
@@ -738,6 +743,7 @@ color: var(--title-color);
 
 .footer__social{
   column-gap: 1.25rem;
+ 
   
 }
 
@@ -755,10 +761,12 @@ color: var(--title-color);
 .footer__copy{
   display:block;
   margin-top:4.5rem;
+  justify-content: center;
   font-size: var(--small-font-size);
   color: var(--text-color-light)
-
+  
 }
+
 
 
 /*=============== SCROLL BAR ===============*/

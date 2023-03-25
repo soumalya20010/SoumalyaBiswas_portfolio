@@ -124,12 +124,13 @@ const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2500,
-    delay: 400,
+    delay: 250,
 })
 
 
 
 sr.reveal(`.home__data, .footer__container`)
+sr.reveal(`.section__title, .section__subtitle`)
 sr.reveal(`.home__info div`, {delay: 600, origin: 'bottom',interval: 100})
 sr.reveal(`.skills__content:nth-child(1)`, {origin: 'left'})
 sr.reveal(`.skills__content:nth-child(2)`, {origin: 'right'})
