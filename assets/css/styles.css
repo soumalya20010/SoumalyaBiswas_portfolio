@@ -479,6 +479,7 @@ animation: bounce-skills .8s;
 .qualification__info{
   display: grid;
   row-gap: 2rem;
+  justify-content: center;
 }
 
 .qualification__name{
@@ -584,8 +585,30 @@ animation: bounce-skills .8s;
   
 }
 
-/*=============== TESTIMONIAL ===============*/
+/*=============== Certifications ===============*/
 
+.certifications__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: .5rem;
+  font-size: var(--medium-font-size);
+  font-weight: var(--font-semi-bold);
+  margin-bottom: 2.5rem;
+}
+.certifications__container{
+  row-gap: 3.5rem;
+}
+
+.certifications__content{
+  row-gap: 3.5rem;
+}
+.certifications__info{
+display: grid;
+  row-gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
 
 /* Swiper class */
 
