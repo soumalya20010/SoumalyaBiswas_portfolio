@@ -458,7 +458,11 @@ animation: bounce-skills .8s;
 }
 
 .qualification__container{
-  row-gap: 3.5rem;
+  row-gap: 2.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+
 }
 
 .qualification__title{
@@ -485,12 +489,14 @@ animation: bounce-skills .8s;
 .qualification__name{
   font-size: var(--normal-font-size);
   margin-bottom: 1.25rem;
+  font-weight: bold;
 }
 
 .qualification__year{
   display:block;
   font-size: var(--small-font-size);
   color: var(--text-color-light);
+  font-weight: bold;
 }
 
 
@@ -512,6 +518,8 @@ animation: bounce-skills .8s;
   width: 350px;
   border-radius: .75rem;
   margin-bottom: 1.25rem; 
+  display: block;
+  margin: 0 auto;
 
 }
 
@@ -608,6 +616,8 @@ display: grid;
   row-gap: 2rem;
   justify-content: center;
   align-items: center;
+  list-style-type: disc;
+  padding-left: 20px;
 }
 
 /* Swiper class */
@@ -839,9 +849,11 @@ color: var(--title-color);
 .projects__img{
   width: 200px;
   justify-self: center;
+  display: block;
+  margin: 0 auto;
+}
+}
 
-}
-}
 
 /* For medium devices */
 
